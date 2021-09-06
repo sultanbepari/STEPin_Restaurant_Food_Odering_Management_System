@@ -1,5 +1,5 @@
 # Test Plan
-|  Test ID | Description  | Exp Input  | Exp Output  | Actual Output  | Pass/Fail |
+|  Test ID | Description  | Expected Input  | Expected Output  | Actual Output  | Pass/Fail |
 |---|---|---|---|---|---|
 | TID_01  | Signup  | Username: Sultan<br />Password: Sultan123| SUCCESS  |SUCCESS| PASS  |
 | TID_02  | Login  | Username: Sultan<br />Password: Sultan123| SUCCESS  |SUCCESS| PASS  |
