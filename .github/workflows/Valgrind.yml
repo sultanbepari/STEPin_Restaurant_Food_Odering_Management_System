@@ -20,4 +20,4 @@ jobs:
     - name: make test
       run: |
         make 3_Implementation
-        valgrind 3_Implementation/Build/Restaurant_Food_Ordering_System.out
+        valgrind ./3_Implementation/Build/Restaurant_Food_Ordering_System.out
