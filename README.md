@@ -5,5 +5,6 @@ The Restaurant Food Ordering Management System Project in C is a consoled based 
 ![](https://www.code-inspector.com/project/27306/score/svg)
 ![](https://www.code-inspector.com/project/27306/status/svg)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/41b77a387bf148f19aba02d17c86497a)](https://www.codacy.com/gh/sultanbepari/STEPin_Restaurant_Food_Odering_Management_System/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sultanbepari/STEPin_Restaurant_Food_Odering_Management_System&amp;utm_campaign=Badge_Grade)
+[![C/C++ CI](https://github.com/sultanbepari/STEPin_Restaurant_Food_Odering_Management_System/actions/workflows/C-build.yml/badge.svg)](https://github.com/sultanbepari/STEPin_Restaurant_Food_Odering_Management_System/actions/workflows/C-build.yml)
 [![cppcheck-action](https://github.com/sultanbepari/STEPin_Restaurant_Food_Odering_Management_System/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/sultanbepari/STEPin_Restaurant_Food_Odering_Management_System/actions/workflows/cppcheck.yml)
 [![Unit testing](https://github.com/sultanbepari/STEPin_Restaurant_Food_Odering_Management_System/actions/workflows/Unit-Test.yml/badge.svg)](https://github.com/sultanbepari/STEPin_Restaurant_Food_Odering_Management_System/actions/workflows/Unit-Test.yml)
