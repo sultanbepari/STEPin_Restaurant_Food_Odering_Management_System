@@ -19,8 +19,8 @@
 void setUp(){}
 void tearDown(){}
 top starter, odr;
-float FOOD_CODE;
-int qnty;
+float FOOD_CODE=0.0;
+int qnty=0;
 void test_Clear_Screen(void){
   		TEST_ASSERT_EQUAL(0,Clear_Screen());
 }
