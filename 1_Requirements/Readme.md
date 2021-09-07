@@ -38,11 +38,11 @@ The Restaurant Food Ordering Management System Project in C is a consoled based 
 - There are many Food ordering Applications in the market which were build using java in android studio.
 
 ## 4W's and 1'H
-**WHAT** : Restaurant Food Ordering Management System.
-**WHERE** : Used in Restaurants, Hotels, shops, etc.
- **WHEN** : Party, Functions, Hunger, Food Need, etc.
- **WHY** : For Food Ordering.
-**HOW** : Operates by using User Inputs on Food ordering.
+- **WHAT** : Restaurant Food Ordering Management System.
+- **WHERE** : Used in Restaurants, Hotels, shops, etc.
+- **WHEN** : Party, Functions, Hunger, Food Need, etc.
+- **WHY** : For Food Ordering.
+- **HOW** : Operates by using User Inputs on Food ordering.
 
 ## Detail requirements
 ### High Level Requirements
