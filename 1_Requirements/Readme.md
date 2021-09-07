@@ -51,14 +51,22 @@ The Restaurant Food Ordering Management System Project in C is a consoled based 
 | HLR1      | Login, Signup and Log out     |
 | HLR2   | Admin and Customers|
 | HLR3   | Different Menu List|
-| HLR4   | View Menu, View Previous Orders|
-| HLR5   | Add or Modify New Meals|
+| HLR4   | View Menu|
+| HLR5   | Add or Modify Meals|
 
 ### Low Level Requirements
 | Low Level Requirements      | Description |
 | ----------- | ----------- |
-| LLR1      | Add Menu     |
-| LLR2   | Orders|
-| LLR3   | View Menu|
-| LLR4   |View Previous Orders|
-| LLR5   | Get Bill |
+| HLR1_LLR1      | Signup(Username,Password)  |
+| HLR1_LLR2  | Login(Username,Password) |
+| HLR1_LLR3   |Log out(No Longer access)|
+| HLR2_LLR1   |Admin-Add Meal|
+| HLR2_LLR2   | Admin-View Meal|
+| HLR2_LLR3   | Admin-Modify Meal|
+| HLR3_LLR1   | Menu - Starter Meals|
+| HLR3_LLR2   | Menu - Main course Meals|
+| HLR3_LLR3   | Menu - Dessert Meals|
+| HLR4_LLR1   |Customer - View Menu|
+| HLR4_LLR2   |Customer - View Previous Orders|
+| HLR4_LLR3   |Customer - View Total Bill|
+| HLR5_LLR1   |Admin - Delete or Modify Menu|
