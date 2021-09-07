@@ -27,6 +27,10 @@ unity/unity.c
 # All include folders with header files
 INC = -Iinc\
 -Iunity
+TEST_OUTPUT = $(BUILD_DIR)/Test_$(PROJ_NAME).out
+#Library Inlcudes
+#INCLUDE_LIBS = 
+INCLUDE_LIBS = -lcunit
 
 all:$(BUILD_DIR)
 	gcc $(SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
@@ -36,6 +40,10 @@ run: all
 
 $(BUILD_DIR):
 	mkdir $(BUILD_DIR)
+	
+test : $(BUILD_DIR)
+	gcc $(SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
+	./$(TEST_OUTPUT)
 
 clean:
 	$(RM) $(call FixPath,$(BUILD_DIR)/*)
