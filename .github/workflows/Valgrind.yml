@@ -18,6 +18,5 @@ jobs:
         sudo apt-get -y install valgrind
         sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
     - name: all
-      run: |
-        make 3_Implementation
-        valgrind 3_Implementation
+        make run
+        valgrind ./3_Implementation/Build/Restaurant_Food_Ordering_System.out
