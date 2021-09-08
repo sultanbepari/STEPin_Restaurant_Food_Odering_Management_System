@@ -9,8 +9,6 @@
  * 
  */
 #include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
 #include "Initilization.h"
 #include "header.h"
 #include "string.h"
