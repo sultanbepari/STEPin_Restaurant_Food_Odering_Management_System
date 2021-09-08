@@ -1,5 +1,4 @@
-name: Valgrind
-
+name: CodeQuality - Valgrind
 on:
   push:
     branches: [ main ]
@@ -7,7 +6,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  test:
 
     runs-on: ubuntu-latest
 
@@ -17,7 +16,7 @@ jobs:
       run: |
         sudo apt-get -y install valgrind
         sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
-    - name: sudo make
-      run: |
-        make 3_Implementation
-        valgrind 3_Implementation/build/Test_Restaurant_Food_Ordering_System.out
+    - name: make all
+      run: make -C 3_Implementation/ all
+    - name: valgrind
+      run: make -C 3_Implementation/ valgrind
