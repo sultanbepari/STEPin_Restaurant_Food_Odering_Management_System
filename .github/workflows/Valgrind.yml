@@ -20,4 +20,4 @@ jobs:
     - name: sudo make
       run: |
         make 3_Implementation
-        valgrind ./build/Test_Restaurant_Food_Ordering_System.out
+        valgrind 3_Implementation/build/Test_Restaurant_Food_Ordering_System.out
