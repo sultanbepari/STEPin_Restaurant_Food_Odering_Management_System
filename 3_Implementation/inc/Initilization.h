@@ -16,6 +16,7 @@ typedef struct top
     Meals *start;
 }top;
 # include <unistd.h>
+#include<stdlib.h>
 #define sleep(x) Sleep(1000 * (x))
 
 #endif // INITILIZATION_H_INCLUDED
